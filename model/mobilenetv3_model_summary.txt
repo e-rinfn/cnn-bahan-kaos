@@ -1,0 +1,28 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input_2 (InputLayer)        [(None, 224, 224, 3)]     0         
+                                                                 
+ MobilenetV3large (Functiona  (None, 7, 7, 960)        2996352   
+ l)                                                              
+                                                                 
+ global_average_pooling2d (G  (None, 960)              0         
+ lobalAveragePooling2D)                                          
+                                                                 
+ dropout (Dropout)           (None, 960)               0         
+                                                                 
+ dense (Dense)               (None, 256)               246016    
+                                                                 
+ batch_normalization (BatchN  (None, 256)              1024      
+ ormalization)                                                   
+                                                                 
+ dropout_1 (Dropout)         (None, 256)               0         
+                                                                 
+ dense_1 (Dense)             (None, 4)                 1028      
+                                                                 
+=================================================================
+Total params: 3,244,420
+Trainable params: 247,556
+Non-trainable params: 2,996,864
+_________________________________________________________________

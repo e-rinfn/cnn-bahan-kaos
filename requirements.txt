@@ -1,0 +1,21 @@
+# Web Framework
+Flask==2.3.3
+flask-cors==4.0.0
+
+# Machine Learning
+tensorflow==2.10.1
+keras==2.10.0
+scikit-learn==1.7.2
+matplotlib==3.7.5
+seaborn==0.12.2
+efficientnet==1.1.1
+
+# Image Processing
+Pillow==12.3.0
+opencv-python==4.8.0.76
+numpy==1.23.5
+scikit-image==0.19.3
+
+# Utilities
+python-dotenv==1.0.0
+tkinterdnd2==0.6.3
